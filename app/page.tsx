@@ -1,7 +1,7 @@
 "use client"
 
-import { JSONValue } from "next/dist/server/config-shared";
-import { useEffect, useId, useState } from "react"
+import { useEffect, useState } from "react"
+import { loadEnvConfig, processEnv } from '@next/env'
 
 interface TypewriterProps {
   text: string;
@@ -55,6 +55,8 @@ export default function Home() {
 
   const characteres = 'ABCDEFGHIJKLMLOPQ0123456789@#$%&*'
 
+
+  
   useEffect(()=>{
 
     const Interval = setInterval(()=>{
@@ -107,7 +109,7 @@ export default function Home() {
 
         }
 
-        const response = await fetch("https://ipinfo.io/geo?format=json..");
+        const response = await fetch("ttps://ipinfo.io/geo?format=json");
 
         if(!response.ok){
             throw new Error('Erro ao buscar seu Endereco IP')
