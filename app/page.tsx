@@ -109,7 +109,7 @@ export default function Home() {
 
         }
 
-        const response = await fetch("ttps://ipinfo.io/geo?format=json");
+        const response = await fetch("https://ipinfo.io/geo?format=json");
 
         if(!response.ok){
             throw new Error('Erro ao buscar seu Endereco IP')
