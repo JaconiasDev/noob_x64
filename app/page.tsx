@@ -135,7 +135,7 @@ export default function Home() {
 
   },[]);
 
-   const palavraCompleta = `[+] - Iniciando a Coleta de Informacoes [#######################] 100% \n[+] - city : ${city},\n[+] - regiao : ${region},\n[+] - pais : ${pais},\n[+] - location : ${loc},\n[+] - provedor : ${provedor}\n\n[noob@noob_x64 ~/noob-x64]$`;
+   const palavraCompleta = `[+] - Iniciando a Coleta de Informacoes [#######################] 100% \n[+] - ip : ${userIP},\n[+] - city : ${city},\n[+] - regiao : ${region},\n[+] - pais : ${pais},\n[+] - location : ${loc},\n[+] - provedor : ${provedor}\n\n[noob@noob_x64 ~/noob-x64]$`;
 
   return (
     <div className="relative min-h-screen bg-black flex flex-col items-center justify-center gap-8 overflow-hidden">
