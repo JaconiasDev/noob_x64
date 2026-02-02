@@ -138,7 +138,7 @@ export default function Home() {
    const palavraCompleta = `[+] - Iniciando a Coleta de Informacoes [#######################] 100% \n[+] - ip : ${userIP},\n[+] - city : ${city},\n[+] - regiao : ${region},\n[+] - pais : ${pais},\n[+] - location : ${loc},\n[+] - provedor : ${provedor}\n\n[noob@noob_x64 ~/noob-x64]$`;
 
   return (
-    <div className="relative min-h-screen bg-black flex flex-col items-center justify-center gap-8 ">
+    <div className="relative min-h-screen bg-black flex flex-col items-center justify-center gap-8 overflow-hidden">
       {/* Efeito de brilho no fundo */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-600/20"></div>
 
