@@ -170,7 +170,7 @@ export default function Home() {
 
       <div className="bg-[#101020] text-green-400 font-mono p-4 rounded-b-lg text-sm">
         <p>[noob@noob_x64 ~/noob-x64]$ curl -i <a href="https://github.com/JaconiasDev">https://github.com/JaconiasDev</a></p>
-        <p className="text-green-400">[noob@noob_x64 ~/noob-x64]$ curl -i <a href="www.linkedin.com/in/jaconias-rocha-x64">www.linkedin.com/in/jaconias-rocha</a></p>
+        <p className="text-green-400">[noob@noob_x64 ~/noob-x64]$ curl -i <a href="https://www.linkedin.com/in/jaconias-rocha-x64">www.linkedin.com/in/jaconias-rocha</a></p>
         <p>[noob@noob_x64 ~/noob-x64]$ curl <a href="https://www.instagram.com/jaconias_03/"> https://www.instagram.com/jaconias_03</a></p>
       </div>
     </div>
